@@ -1,0 +1,22 @@
+/* nav */
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 2vh 0;
+    list-style: none;
+    background-color: #ffc300;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links li a {
+    text-decoration: none;
+}
+
+.nav-links li a:hover {
+    color: #ededf4;
+    text-decoration: underline;
+}

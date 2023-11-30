@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- links -->
+    <link rel="stylesheet" href="../css/booking.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <title>Taxi Service - Booking</title>
+</head>
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../html/booking.html">Booking</a></li>
+            <li><a href="../html/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="success">
+            <p class="form-success-message" id="form-success-message" disabled>Thank you for booking with us, we'll get back to you shortly :)</p>
+        </div>
+        <form 
+        action="#"
+        id="booking-form">
+            <!-- customer info -->
+            <label for="first-name">First Name: </label>
+            <input type="text" name="first-name" id="first-name">
+
+            <label for="last-name">Last Name: </label>
+            <input type="text" name="last-name" id="last-name">  
+            
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="phone" id="phone">
+
+            <label for="passengers">Number of passengers:</label>
+            <input type="number" name="passengers" id="passengers">
+
+            <!-- pick up date, time, location, destination -->
+            <label for="pick-up-date">Pick-up date:</label>
+            <input type="date" name="pick-up-date" id="pick-up-date">
+
+            <label for="pick-up-time">Pick-up time:</label>
+            <input type="time" name="pick-up-time" id="pick-up-time">
+
+            <label for="pick-up-address">Pick-up address:</label>
+            <input type="text" name="pick-up-address" id="pick-up-address">
+
+            <label for="destination">Destination:</label>
+            <input type="text" name="destination" id="destination">
+
+            <label for="special-instructions">Special instructions:</label>
+            <textarea name="special-instructions" id="special-instructions" cols="5" rows="5" placeholder="This input field is optional"></textarea>
+
+            <!-- button submit  -->
+            <input type="submit" value="Submit" id="submit-btn">
+        </form>
+	    <p class="hint">
+            (Hint: Experiencing difficulties with date and time? 
+            Ease the process by selecting the icons within the input field for a smoother experience.)
+        </p>
+    </main>
+</body>
+</html>
