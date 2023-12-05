@@ -120,3 +120,78 @@ body {
 .book p {
     margin-top: 0.5rem;
 }
+
+@media (max-width: 1024px) {
+    .width-container {
+        max-width: 90vw;
+        
+    }
+}
+
+@media (max-width: 800px) {
+    /* hero section */
+    .hero-text h1 {
+        font-size: 3rem;
+    }
+    
+    .hero-text p {
+        font-size: 1rem;
+    }
+
+    /* company info section */
+    .company-info-container {
+        display:inline-block;
+        padding: 1rem;
+    }
+
+    .first-info-p {
+        margin-bottom: 1rem;
+    }
+
+    /* reviews section */
+    .reviews-container {
+        display: inline-block;
+    }
+
+    .first-review {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    /* hero section */
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+    
+    .hero-text p {
+        font-size: 0.8rem;
+    }
+
+    /* company-info section */
+    .company-info-container {
+        padding: 0;
+    }
+
+    .company-info-img {
+        width: 350px;
+        height: 450px;
+    }
+
+    .second-info-p {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 360px) {
+    /* hero section */
+    .hero-text h1 {
+        font-size: 1.6rem;
+    }
+
+    /* company info section */
+    .company-info-img {
+        width: 300px;
+        height: 400px;
+    }
+}
