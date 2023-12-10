@@ -1,4 +1,4 @@
-# taxi-website-repo
+# taxi-website
  Taxi company website
 
 ## Technology Used
