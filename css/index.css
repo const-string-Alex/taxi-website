@@ -121,6 +121,9 @@ body {
     margin-top: 0.5rem;
 }
 
+/* footer is in css/footer.css */
+
+/* web responsive design: media queries */
 @media (max-width: 1024px) {
     .width-container {
         max-width: 90vw;
